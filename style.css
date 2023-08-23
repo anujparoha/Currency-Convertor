@@ -1,0 +1,94 @@
+ *{
+    margin: 0;
+    padding : 0;
+ }
+  
+.container{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    max-width: 50vw;
+    align-items: center;
+   
+    padding: 20px;
+    border-radius: 20px;
+   margin: auto ;
+}
+.innerContainer{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+.container form label{
+    background-color: aliceblue;
+    font-size: 25px;
+    margin: 11px 0 ;
+}
+.container form input[type='number'],select{
+    background-color: aliceblue;
+    font-size: 25px;
+    margin: 15px 0;
+    width: 23vw;
+} 
+h1{
+    margin-bottom: 20px;
+}
+.container form {
+    display:  flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(53, 7, 70);
+    color: #f3eded;
+    padding: 23px
+}
+nav .logo{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 23px;
+    font-weight: 900;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    font-family: 'Open Sans', sans-serif;
+   list-style: none;
+   margin: 0px 23px;
+}
+.btn{
+    margin: 20px;
+    height: 6vh;
+   width: 18%;
+   font-size: 1rem;
+   background-color: rgb(53, 7, 70) ;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   border-radius: 13px;
+}
+nav ul li a{
+    color: rgb(225, 232, 248);
+    font-size: none;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all;
+    transition-duration: 500ms;
+}
+nav ul li  a:hover{
+   color: rgb(176, 85, 176);
+   
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.output{
+    display: none;
+}
+footer{
+    text-align: center;
+}

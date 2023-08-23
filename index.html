@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,700;1,600&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="./pngwing.com.png" alt="" height="40px">
+        <div class="logo">Currency Converter</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us </a></li>
+            <li><a href="/contanct">Contact </a></li>
+           
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="innerContainer">
+        <h1>Chose a Currency to convert</h1>
+        <form action="/action.php" method="post"> 
+            <label for="number">Chose a number : </label>
+            <input type="number" name="quantity" min="1" max="10">
+            <label for="currency">Chose a currency :</label>
+            <select name="currency">
+                <option value="usa">Indian Currency </option>
+                <option value="usa">Dollar </option>
+                <option value="canada">EURO</option>
+                </select>
+            <input type="submit"  class='btn' value="Submit" />
+        </form>
+    </div>
+        <div class="output">
+            <h1>Here is your converted values</h1>
+            <table id="showTable">
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th >Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer >
+        Copyright &copy:All rights reserves 
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
